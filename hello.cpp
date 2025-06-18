@@ -1,47 +1,49 @@
 // Basic Syntax
 
-// #include<iostream>
-// int main(){
-//     std::cout<<"Hello,"<<std::endl;
-//     std::cout<<"World!"<<std::endl;
-//     return 0;
-// }
-
-// Loops & Functions
-
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     for(int i=1;i<=100;i++){
-//         if(i%2==0){
-//             cout<<i<<" ";
-//         }
-//     }
-//     return 0;
-// }    
+#include<iostream>
+int main(){
+    std::cout<<"Hello,"<<std::endl;
+    std::cout<<"World!"<<std::endl;
+    return 0;
+}
 
 
 // Simple Calculator
 
-// #include<iostream>
-// int main(){
-//     int a,b;
-//     char oper;
-//     printf("enter:");
-//     scanf("%d %c %d",&a,&b,&oper);
-//     switch(oper){
-//         case'+':printf("%2d\n",a+b);
-//     break;
-//         case'-':printf("%2d\n",a-b);
-//     break;
-//         case'*':printf("%2d\n",a*b);
-//     break;
-//         case'/':b? printf("%2d\n",a/b):printf("error:div by 0\n");
-//     break;
-//         default: printf("invalid operator\n");
-//     }
-//     return 0;
-// }
+#include<iostream>
+int main(){
+    int a,b;
+    char oper;
+    printf("enter:");
+    scanf("%d %c %d",&a,&b,&oper);
+    switch(oper){
+        case'+':printf("%2d\n",a+b);
+    break;
+        case'-':printf("%2d\n",a-b);
+    break;
+        case'*':printf("%2d\n",a*b);
+    break;
+        case'/':b? printf("%2d\n",a/b):printf("error:div by 0\n");
+    break;
+        default: printf("invalid operator\n");
+    }
+    return 0;
+}
+
+
+// Loops & Functions
+
+#include<iostream>
+using namespace std;
+int main(){
+    for(int i=1;i<=100;i++){
+        if(i%2==0){
+            cout<<i<<" ";
+        }
+    }
+    return 0;
+}    
+
 
 // Arrays & Functions
 
