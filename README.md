@@ -5,7 +5,7 @@ Task 1: Basic Syntax
 
 Task 2: Simple Calculator
 . Build a basic calculator in C that can add,subtract,multiply 
-  and add two numbers. Use switch-case for operations. Ensure
+  and divide two numbers. Use switch-case for operations. Ensure
   the program handles division by zero gracefully.
 
 Task 3: Loops % Conditions
